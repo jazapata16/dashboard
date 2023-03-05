@@ -245,7 +245,7 @@ let chart3 = new Chart(chartRef3, {
   },
 });
 let newData = [100, 80, 60, 40, 20, 10, 1];
-chart1.data.datasets[0].data = [];
+
 chart1.data.datasets[0].data = newData;
 }
 loadData()
